@@ -12,7 +12,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 
-public class linkedInTestSteps {
+public class LinkedInTestSteps {
 
 	// profileName is the Full Name of the person that has logged In
 	private String profileName;
@@ -25,7 +25,7 @@ public class linkedInTestSteps {
 	private AccountHomePage accountHomePage;
 	private AutomationProperties automationProperties;
 
-	private static Logger logger = Logger.getLogger(linkedInTestSteps.class.getName());
+	private static Logger logger = Logger.getLogger(LinkedInTestSteps.class.getName());
 
 	@Given("^the user is on linkedin login page$")
 	public void visitLinkedIn() throws Exception {
